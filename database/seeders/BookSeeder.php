@@ -38,15 +38,5 @@ class BookSeeder extends Seeder
             'quantity' => 50,
             'description' => 'Tập 1 trong series Harry Potter nổi tiếng thế giới.',
         ]);
-
-        Books::create([
-            'title' => 'Harry Potter và ....',
-            'author' => 'J.K. Rowling',
-            'publisher' => 'NXB Trẻ',
-            'published_year' => 2025,
-            'price' => 250000,
-            'quantity' => 25,
-            'description' => 'Tập 2 trong series Harry Potter nổi tiếng thế giới.',
-        ]);
     }
 }
